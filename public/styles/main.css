@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/m.jpg");
+   
+    background-position: center;
+    position: static;
+
+  
+
+}
+#error{
+     margin-left: 150px;
+     color: red;
+}
+
+#f {
+    background-color: transparent;
+    width: 500px;
+    height: 120px;
+    margin-top: 154px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    border:1px solid white;
+  overflow: hidden;
+  transition: height 5s ease-out;
+  backdrop-filter: blur(30px);
+  
+}
+
+#box {
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    margin-left:35px;
+    margin-top: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+#map{
+    position: relative;
+    font-size: x-large;
+    left: 65px;
+    visibility: visible;
+    color: greenyellow;
+}
+#erro{
+    margin-left: 140px;
+    color:red;
+    visibility: hidden;
+}
+
+#search{
+      position: relative;
+      width: 100px;
+      height: 40px;
+      left: 13px;
+      border-radius: 8px;
+      outline: none;
+      border: 1px solid white;
+      background-color: transparent;
+      color: white;
+
+}
+#search:hover{
+    background-color: green;
+}
+#cloud{
+    width:200px;
+    height: 120px;
+    position: relative;
+    top:13%;
+    left: 28%;
+    visibility: hidden;
+    
+    
+}
+#degree{
+    font-size: xx-large;
+    font-weight: 800;
+    position: relative;
+    top: 20%;
+    left:40%;
+}
+#wind{
+    font-size: xx-large;
+    position: relative;
+    top: 35%;
+    left:65%;
+}
+#speed{
+    font-size: x-large;
+    position: relative;
+    top: 25%;
+    left: 74%;
+    font-weight:bolder;
+}
+#head{
+    font-size: large;
+    position: relative;
+    top: 25%;
+    left: 74%;
+    font-weight:bolder;
+}
+#hum{
+    font-size: xx-large;
+    position: relative;
+    top: 12%;
+    left:2%;
+
+    font-weight:bolder;
+
+}
+#humidity{
+    font-size: xx-large;
+    position: relative;
+    top: 1%;
+    left:10%;
+
+    font-weight:bolder;
+}
+#head2{
+    font-size: large;
+    position: relative;
+    top: 0%;
+    left:10%;
+    font-weight:bolder;
+}
+#location{
+
+    position: absolute;
+    top:40%;
+    left: 36%; 
+    font-weight: bolder;
+    
+}  
